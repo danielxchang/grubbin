@@ -60,6 +60,7 @@ const cartReducer = (state, action) => {
     };
   }
 
+  // Clearing cart
   if (action.type === "CLEAR") return defaultCartState;
 
   return defaultCartState;
